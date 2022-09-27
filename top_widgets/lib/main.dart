@@ -11,9 +11,24 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text("Widgets"),
+          backgroundColor: const Color.fromARGB(255, 255, 105, 24),
+        ),
+        body: Container(
+          height: 200,
+          width: 200,
+          decoration: BoxDecoration(
+            color: Colors.deepOrange,
+            borderRadius: BorderRadius.circular(10),
+            border: Border.all(color: Colors.red),
+          ),
+          child: const Text(
+            "Exarth",
+            textAlign: TextAlign.center,
+          ),
+        ),
       ),
     );
   }

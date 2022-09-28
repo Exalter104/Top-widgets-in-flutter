@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'expanded.dart';
-
 void main() {
-  runApp(const ExpandWidgets());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -62,7 +60,7 @@ class MyApp extends StatelessWidget {
               children: [
                 Container(
                   height: 200,
-                  width: 300,
+                  width: 200,
                   decoration: BoxDecoration(
                     color: Colors.deepOrange,
                     borderRadius: BorderRadius.circular(10),
@@ -87,7 +85,7 @@ class MyApp extends StatelessWidget {
                   flex: 2,
                   child: Container(
                     height: 200,
-                    width: 300,
+                    width: 200,
                     decoration: BoxDecoration(
                       color: Colors.deepOrange,
                       borderRadius: BorderRadius.circular(10),

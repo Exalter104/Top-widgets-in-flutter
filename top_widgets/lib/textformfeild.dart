@@ -47,63 +47,6 @@ class TextformFeild extends StatelessWidget {
                       ),
                     ),
                   ),
-                  const SizedBox(
-                    height: 20,
-                  ),
-                  const Text(
-                    "Chat",
-                    style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),
-                  ),
-
-// List title
-                  const ListTile(
-                    leading: CircleAvatar(
-                      backgroundImage: NetworkImage(
-                          "https://images.pexels.com/photos/9287210/pexels-photo-9287210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"),
-                    ),
-                    title: Text(
-                      "Home",
-                      style:
-                          TextStyle(fontSize: 17, fontWeight: FontWeight.bold),
-                    ),
-                    subtitle: Text("Misscall ",
-                        style: TextStyle(
-                          color: Colors.red,
-                        )),
-                    trailing: Text("5:52 PM"),
-                  ),
-                  const ListTile(
-                    leading: CircleAvatar(
-                      backgroundImage: NetworkImage(
-                          "https://images.pexels.com/photos/9287210/pexels-photo-9287210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"),
-                    ),
-                    title: Text(
-                      "Home",
-                      style:
-                          TextStyle(fontSize: 17, fontWeight: FontWeight.bold),
-                    ),
-                    subtitle: Text("Misscall ",
-                        style: TextStyle(
-                          color: Colors.red,
-                        )),
-                    trailing: Text("5:55 PM"),
-                  ),
-                  const ListTile(
-                    leading: CircleAvatar(
-                      backgroundImage: NetworkImage(
-                          "https://images.pexels.com/photos/9287210/pexels-photo-9287210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"),
-                    ),
-                    title: Text(
-                      "Home",
-                      style:
-                          TextStyle(fontSize: 17, fontWeight: FontWeight.bold),
-                    ),
-                    subtitle: Text("Misscall ",
-                        style: TextStyle(
-                          color: Colors.red,
-                        )),
-                    trailing: Text("5:57 PM"),
-                  ),
                 ]),
           )),
     );
